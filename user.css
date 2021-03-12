@@ -1,0 +1,80 @@
+/*Thinner scrollbar*/
+::-webkit-scrollbar {
+	height: 6px !important;
+	width: 0px !important;
+	background-color: transparent;
+}
+
+.view-player .player-controls-container .progress-container .progress-bar .inner {
+    background-color: #ef5466;
+}
+
+.added .button.button-icon-only.button-add {
+	color: #ef5466;
+}
+
+.view-player .now-playing-container .button-add,
+.view-player .now-playing-container .button-add:not(:disabled):hover,
+.view-player .now-playing-container .nowplaying-add-button, 
+.view-player .now-playing-container .nowplaying-add-button:not(:disabled):hover,
+.view-player .now-playing-container .nowplaying-ban-button,
+.view-player .now-playing-container .nowplaying-ban-button:not(:disabled):hover{
+	color: #ef5466;
+}
+
+.SidebarListItemLink--is-highlighted:hover,
+.SidebarListItemLink--is-highlighted:link,
+.SidebarListItemLink--is-highlighted:visited
+{
+	color: #ef5466;
+}
+
+html .SidebarList__title{
+	color: #ef5466;
+	font-style: inherit;
+}
+
+.sidebar {
+    border-right: #23252e;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
+.LeftSidebar__scroll-section, .sidebar, .sidebar .sidebar-navbar {
+	background-color: #17191f;
+}
+
+.view-player{
+	border-top: #23252e;
+	border-top-width: 1px;
+	border-top-style: solid;
+	box-shadow: 0px 0px 20px 0px #0a0b0d;
+}
+
+
+
+.GlueHeader__background-color,
+.Header__background-color {
+	background-color: var(--modspotify_main_bg) !important;
+}
+
+.card-image, .Card__image, .gc-image {
+	border-radius: 5px;
+}
+
+.merch-item.pull-left {
+	border-radius: 5px;
+}
+
+.view-player .now-playing .cover-image-link figure .cover-image{
+	border-radius: 5px;
+}
+
+.Card__image-hit-area, .card-placeholder-wrapper{
+	background-color: transparent;
+}
+
+.card-overlay, .Card__overlay{
+	border-radius: 5px;
+}
+
