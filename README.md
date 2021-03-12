@@ -1,8 +1,6 @@
-# Nortu-1
+# Nortu-Spicetify-theme
 
 ## Screenshots
 
+![Screen](screen.png)
 
-## Credits
-
-Nortu98
