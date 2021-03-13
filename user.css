@@ -9,18 +9,18 @@
     background-color: #ef5466;
 }
 
+
 .added .button.button-icon-only.button-add {
 	color: #ef5466;
 }
-
-.view-player .now-playing-container .button-add,
-.view-player .now-playing-container .button-add:not(:disabled):hover,
-.view-player .now-playing-container .nowplaying-add-button, 
-.view-player .now-playing-container .nowplaying-add-button:not(:disabled):hover,
-.view-player .now-playing-container .nowplaying-ban-button,
-.view-player .now-playing-container .nowplaying-ban-button:not(:disabled):hover{
+button.CanonicalButton.Button.Button--style-icon.Button--size-32.spoticon-heart-active-16 {
 	color: #ef5466;
 }
+button.added.button.button-add.button-icon-only.nowplaying-add-button{
+	color: #ef5466;
+}
+
+
 
 .SidebarListItemLink--is-highlighted:hover,
 .SidebarListItemLink--is-highlighted:link,
@@ -60,15 +60,18 @@ html .SidebarList__title{
 
 .card-image, .Card__image, .gc-image {
 	border-radius: 5px;
+	box-shadow: 2px 2px 3px #0a0b0d;
 }
 
 .merch-item.pull-left {
 	border-radius: 5px;
+	box-shadow: 2px 2px 3px #0a0b0d;
 }
 
 .view-player .now-playing .cover-image-link figure .cover-image{
 	border-radius: 5px;
 }
+
 
 .Card__image-hit-area, .card-placeholder-wrapper{
 	background-color: transparent;
@@ -77,4 +80,5 @@ html .SidebarList__title{
 .card-overlay, .Card__overlay{
 	border-radius: 5px;
 }
+
 
